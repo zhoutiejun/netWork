@@ -1,12 +1,12 @@
 spring:
   freemarker:
-    request-context-attribute: req  #req����request
-    suffix: .html  #��׺��
+    request-context-attribute: req
+    suffix: .html
     content-type: text/html
     enabled: true
-    cache: false #��������
-    template-loader-path: classpath:/templates/ #ģ�����·�� ��������
-    charset: UTF-8 #�����ʽ
+    cache: false
+    template-loader-path: classpath:/templates/
+    charset: UTF-8
     settings:
       number_format: '0.##'
   datasource:
